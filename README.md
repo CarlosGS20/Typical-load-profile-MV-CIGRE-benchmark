@@ -8,9 +8,6 @@ The first step is to identify the data to be collected. In this case, Figure 9 o
 
 The next step is to use computer vision software to help extract numerical data from the plot images, such []WebPlotDigitilizer(https://apps.automeris.io/wpd/). Thanks to this, it is possible to identify the points of the profiles to be extracted. The process is simple, as described below:
 
-
-
- Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
+1. James Madison
+2. James Monroe
+3. John Quincy Adams

@@ -50,3 +50,7 @@ for i in range(0,72):
     datainter[i,1] = y_interp    
 ```
 
+Representing the winter variable (without interpolation) and the winter data interpolated at hourly intervals, the following results are obtained:
+
+
+![texto cualquiera por si no carga la imagen](https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_comparison.jpg)

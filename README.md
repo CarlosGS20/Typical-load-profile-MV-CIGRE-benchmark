@@ -59,4 +59,7 @@ Thus the data of the graph is now available for use. A further step is the disag
 
 # Disaggregation of general profile into commercial and residential load type
 
+El mismo proceso descrito anteriormente, se usa para obtener los datos de la Figura 6.4 en ![MV CIGRE report]()
+
+![texto cualquiera por si no carga la imagen](https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/typical_profile3.JPG)
 

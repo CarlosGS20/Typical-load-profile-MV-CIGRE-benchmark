@@ -55,3 +55,6 @@ Representing the winter variable (without interpolation) and the winter data int
 ![texto cualquiera por si no carga la imagen](https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_comparison.jpg)
 
 Thus the data of the graph is now available for use.
+
+
+# Typical load profile MV CIGRE benchmark

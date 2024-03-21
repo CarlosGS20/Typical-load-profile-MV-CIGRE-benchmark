@@ -34,10 +34,7 @@ datawinter = np.zeros([72,2])
 datainter = np.zeros([72,2])
 ```
 
-To simplify data storage, three separate vectors are defined. In them, the time and the power value obtained in that hour are stored as a table. To obtain the values in a fixed step interval, it is necessary to interpolate. For this purpose, the function [np.interp](https://numpy.org/doc/stable/reference/generated/numpy.interp.html) is used. This function returns the one-dimensional piecewise linear interpolant to a function with given discrete data points (xp, fp), evaluated at x.
-
-
-y_interp = np.interp(i, Summer[:,0], Summer[:,1])
+To simplify data storage, three separate vectors are defined. In them, the time and the power value obtained in that hour are stored as a table. To obtain the values in a fixed step interval, it is necessary to interpolate. For this purpose, the function [np.interp](https://numpy.org/doc/stable/reference/generated/numpy.interp.html) is used. This function returns the one-dimensional piecewise linear interpolant to a function with given discrete data points (xp, fp), evaluated at x. 
 
 
 ```python

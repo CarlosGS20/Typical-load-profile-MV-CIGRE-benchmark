@@ -19,6 +19,17 @@ The data in this file still needs to be processed before it can be used in optim
 
 ```python
 #Read csv file with pandas
+Summer = pd.read_csv('Summer.csv', skiprows=0)
 Winter = pd.read_csv('Winter.csv', skiprows=0)
-puts markdown.to_html
+Inter = pd.read_csv('Inter.csv', skiprows=0)
+#
+#Transformation into an array for easy manipulation
+Summer=np.array(Summer.loc[:,:])
+Winter=np.array(Winter.loc[:,:])
+Inter=np.array(Inter.loc[:,:])
+#
+#Create arrays of length equal to the number of hours set for the three days: 72 components and 2 row for hour and power data.
+datasummer = np.zeros([72,2])
+datawinter = np.zeros([72,2])
+datainter = np.zeros([72,2])
 ```

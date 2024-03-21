@@ -8,6 +8,10 @@ The first step is to identify the data to be collected. In this case, Figure 9 o
 
 The next step is to use computer vision software to help extract numerical data from the plot images, such []WebPlotDigitilizer(https://apps.automeris.io/wpd/). Thanks to this, it is possible to identify the points of the profiles to be extracted. The process is simple, as described below:
 
-1. James Madison
-2. James Monroe
-3. John Quincy Adams
+1. Load image and select 2D (X-Y) Plot.
+2. Select the X-values and Y-values. In this case, Y-values are 0 and 40 MW. If the hourly sample is considered, being three consecutive days, X-value are 0 and 72 hours.
+3. Select manual extraction and mark the points of the profile to be extracted: winter, transition or summer. The more points selected, the more accurate the extracted profile. 
+4. Click on view data and then in download .csv.
+5. A csv file with the data is now available. Perform this operation for each station separately to get all the data.
+
+

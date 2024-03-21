@@ -17,7 +17,7 @@ The next step is to use computer vision software to help extract numerical data 
 
 The data in this file still needs to be processed before it can be used in optimisation algorithms or for network analysis, as the intervals are not regular due to the manual process of marking points. For example, we may have one data point at hour 1, another at 1.14 and at 2.2. Thus, it is essential to interpolate to obtain the power in hour one and hour 2. Python is used for this interpolation process. Although the full code is provided for use, the steps are explained below in case a user feels more comfortable with another programming language and can see the similarities. 
 
-```ruby
+```python
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html

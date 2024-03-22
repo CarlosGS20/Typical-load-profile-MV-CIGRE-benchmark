@@ -90,10 +90,9 @@ for i in range(0,3):
         Inter_comercial[i*24+j] = datainter[i*24+j,1]/max(datainter[:,1])*Porce_P_hour[1,j]      
 ```
 
-Una vez obtenidos estos perfiles, podrian escalarse por algún coeficiente para refinar la evolución según se desee (debido a la digitalización se han podido cometer algunos leves errores o desviaciones). Como ejemplo, para el caso propuesto se incrementará un poco el perfil de invierno y verano, y se disminuirá el transition season, para obtener evoluciones en general, lo más parecido posible al artículo ["Modelling and Optimization in Microgrids"](https://www.mdpi.com/1996-1073/10/4/523). Como resultado, se obtienen los siguientes resultados:
+Once these profiles have been obtained, they can be scaled by a certain coefficient to improve the evolution as desired (due to the digitalisation process, some minor errors or deviations may have occurred). As an example, for the proposed case, the winter and summer profiles are slightly increased and the transition season is reduced in order to obtain, in general, evolutions as similar as possible to the article ["Modelling and Optimization in Microgrids"](https://www.mdpi.com/1996-1073/10/4/523). The results are as follows:
 
 ![texto cualquiera por si no carga la imagen](https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg)
 
-
-Una vez obtenidos estos datos en forma numérica y totalmente accesibles, se puede calcular el consumo total en cada nodo, multiplicando por la potencia nominal de las cargas de cada tipo señalada en el informe CIGRE. También es posible manipular estos datos para originr problemas en la red o realizar distintos análisis. 
+Once this data is available in a numerical and fully accessible form, the total consumption at each node for each typical day can be calculated by multiplying by the nominal power of the loads of each type indicated in the CIGRE report. It is also possible to manipulate this data to perform various analyses, such as creating voltage problems at some nodes or current problems on the lines. 
 

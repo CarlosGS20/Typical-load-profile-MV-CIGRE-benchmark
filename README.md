@@ -89,5 +89,10 @@ for i in range(0,3):
         Inter_comercial[i*24+j] = datainter[i*24+j,1]/max(datainter[:,1])*Porce_P_hour[1,j]      
 ```
 
-Una vez obtenidos estos perfiles, podrian escalarse por algún coeficiente para refinar la evolución según se desee (debido a la digitalización se han podido cometer algunos leves errores o desviaciones). Como ejemplo, para el caso propuesto se incrementará un poco el perfil de invierno y verano, y se disminuirá el transition season, para obtener evoluciones en general, lo más parecido posible al artículo ["Modelling and Optimization in Microgrids"](https://www.mdpi.com/1996-1073/10/4/523).
+Una vez obtenidos estos perfiles, podrian escalarse por algún coeficiente para refinar la evolución según se desee (debido a la digitalización se han podido cometer algunos leves errores o desviaciones). Como ejemplo, para el caso propuesto se incrementará un poco el perfil de invierno y verano, y se disminuirá el transition season, para obtener evoluciones en general, lo más parecido posible al artículo ["Modelling and Optimization in Microgrids"](https://www.mdpi.com/1996-1073/10/4/523). Como resultado, se obtienen los siguientes resultados:
+
+![texto cualquiera por si no carga la imagen](https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg)
+
+
+Una vez obtenidos estos datos en forma numérica y totalmente accesibles, se puede calcular el consumo total en cada nodo, multiplicando por la potencia nominal de las cargas de cada tipo señalada en el informe CIGRE. También es posible manipular estos datos para originr problemas en la red o realizar distintos análisis. 
 

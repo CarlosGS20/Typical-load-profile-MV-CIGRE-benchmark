@@ -89,4 +89,5 @@ for i in range(0,3):
         Inter_comercial[i*24+j] = datainter[i*24+j,1]/max(datainter[:,1])*Porce_P_hour[1,j]      
 ```
 
+Una vez obtenidos estos perfiles, podrian escalarse por algún coeficiente para refinar la evolución según se desee (debido a la digitalización se han podido cometer algunos leves errores o desviaciones). Como ejemplo, para el caso propuesto se incrementará un poco el perfil de invierno y verano, y se disminuirá el transition season, para obtener evoluciones en general, lo más parecido posible al artículo ["Modelling and Optimization in Microgrids"](https://www.mdpi.com/1996-1073/10/4/523).
 

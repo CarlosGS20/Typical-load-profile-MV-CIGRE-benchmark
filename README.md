@@ -59,9 +59,29 @@ Thus the data of the graph is now available for use. A further step is the disag
 
 # Disaggregation of general profile into commercial and residential load type
 
-En este apartado se propone una desagregación en función de los perfiles de días típicos, relacionados con el perfil de 24 horas de ejemplo mostrado en los datos de la Figura 6.4 en ![MV CIGRE report](https://www.e-cigre.org/publications/detail/575-benchmark-systems-for-network-integration-of-renewable-and-distributed-energy-resources.html). Esta desagregación propuesta tiene como objetivo identificar perfiles por estación de cargas residenciales y comerciales, ya que son las que están ubicadas en los nodos de la red, para poder realizar simulaciones y estudios con perfiles coherentes.  El mismo proceso descrito anteriormente, se usa para obtener los datos de la figura de la evolución por unidad de 24 horas. 
+En este apartado se propone una desagregación en función de los perfiles de días típicos, relacionados con el perfil de 24 horas de ejemplo mostrado en los datos de la Figura 6.4 en ![MV CIGRE report](https://www.e-cigre.org/publications/detail/575-benchmark-systems-for-network-integration-of-renewable-and-distributed-energy-resources.html). Esta desagregación propuesta tiene como objetivo identificar perfiles por estación de cargas residenciales y comerciales, ya que son las que están ubicadas en los nodos de la red, para poder realizar simulaciones y estudios con perfiles coherentes de distintas estaciones del año.  El mismo proceso descrito anteriormente, se usa para obtener los datos de la figura de la evolución por unidad de 24 horas. 
 
 ![texto cualquiera por si no carga la imagen](https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/typical_profile3.JPG)
 
+Los perfiles de winter, summer y transition se normalizan en función del consumo más alto, que es el invierno. Esto deja un perfil de consumo general anual en por unidad, descompuesto en los 72 horas de invierno, verano y transition season. Este perfil es multiplicado por el por unidad de carga residencial y comercial del informe CIGRE, obteniendose una evolución de los tipos de cargas para los días típidos de las estaciones. 
+
+```python
+Porce_P_hour = pd.read_csv('Porce_P_hour.csv', skiprows=0) #residencial y debajo comercial
+Porce_P_hour = np.array(Porce_P_hour)
+Winter_residencial = np.zeros(3*24)
+Winter_comercial = np.zeros(3*24)
+Summer_residencial = np.zeros(3*24)
+Summer_comercial = np.zeros(3*24)
+Inter_residencial = np.zeros(3*24)
+Inter_comercial = np.zeros(3*24)
+for i in range(0,3):
+    for j in range(0,24):
+        Winter_residencial[i*24+j] = datawinter[i*24+j,1]/max(datawinter[:,1])*Porce_P_hour[0,j]
+        Winter_comercial[i*24+j] = datawinter[i*24+j,1]/max(datawinter[:,1])*Porce_P_hour[1,j]
+        Summer_residencial[i*24+j] = datasummer[i*24+j,1]/max(datawinter[:,1])*Porce_P_hour[0,j]
+        Summer_comercial[i*24+j] = datasummer[i*24+j,1]/max(datawinter[:,1])*Porce_P_hour[1,j]        
+        Inter_residencial[i*24+j] = datainter[i*24+j,1]/max(datainter[:,1])*Porce_P_hour[0,j]
+        Inter_comercial[i*24+j] = datainter[i*24+j,1]/max(datainter[:,1])*Porce_P_hour[1,j]      
+```
 
 

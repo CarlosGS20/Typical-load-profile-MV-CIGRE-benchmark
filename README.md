@@ -66,14 +66,19 @@ En este apartado se propone una desagregación en función de los perfiles de d�
 Los perfiles de winter, summer y transition se normalizan en función del consumo más alto, que es el invierno. Esto deja un perfil de consumo general anual en por unidad, descompuesto en los 72 horas de invierno, verano y transition season. Este perfil es multiplicado por el por unidad de carga residencial y comercial del informe CIGRE, obteniendose una evolución de los tipos de cargas para los días típidos de las estaciones. 
 
 ```python
+#Read pu profile of CIGRE report
 Porce_P_hour = pd.read_csv('Porce_P_hour.csv', skiprows=0) #residencial y debajo comercial
+#
 Porce_P_hour = np.array(Porce_P_hour)
+#
+#Create arrays of length equal to the number of hours set for the three days: 72 components (three days per 24 hours).
 Winter_residencial = np.zeros(3*24)
 Winter_comercial = np.zeros(3*24)
 Summer_residencial = np.zeros(3*24)
 Summer_comercial = np.zeros(3*24)
 Inter_residencial = np.zeros(3*24)
 Inter_comercial = np.zeros(3*24)
+#
 for i in range(0,3):
     for j in range(0,24):
         Winter_residencial[i*24+j] = datawinter[i*24+j,1]/max(datawinter[:,1])*Porce_P_hour[0,j]

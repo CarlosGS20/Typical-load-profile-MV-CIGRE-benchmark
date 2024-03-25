@@ -66,7 +66,7 @@ Thus, the data of the graph is now available for use. A further step is the disa
 
 In this section a disaggregation according to typical daily profiles is proposed, related to the example 24-hour profile shown in the data of Figure 6.4 in ![MV CIGRE report](https://www.e-cigre.org/publications/detail/575-benchmark-systems-for-network-integration-of-renewable-and-distributed-energy-resources.html). This proposed disaggregation aims to identify profiles by residential and commercial load per season, because are located on the network and are given in nominal power. This is essential in order to carry out simulations and studies with coherent profiles for different seasons.  The same process described above is used to obtain the data for the 24-hour evolution figure. 
 
-![texto cualquiera por si no carga la imagen](https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/typical_profile3.JPG)
+
 
 <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/typical_profile3.JPG" width="680" height="400">
 
@@ -101,7 +101,7 @@ Once these profiles have been obtained, they can be scaled by a certain coeffici
 
 ![texto cualquiera por si no carga la imagen](https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg)
 
-<img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg" width="680" height="400">
+<img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg" width="680" height="680">
 
 
 

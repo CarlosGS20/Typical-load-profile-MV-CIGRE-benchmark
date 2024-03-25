@@ -52,7 +52,7 @@ for i in range(0,72):
 
 Representing the winter variable (without interpolation) and the winter data interpolated at hourly intervals, the following results are obtained:
 
-![Image|100](https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_comparison.jpg)
+![Image|100](https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_comparison.jpg =100x20)
 
 Thus the data of the graph is now available for use. A further step is the disaggregation of this general profile into commercial and residential profiles.
 

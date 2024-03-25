@@ -6,6 +6,10 @@ The first step is to identify the data to be collected. In this case, Figure 9 o
 
 ![Image|100](https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/typical_profile.JPG)
 
+
+<img src="https://i.imgur.com/ZWnhY9T.png" width="150" height="280">
+
+
 The next step is to use computer vision software to help extract numerical data from the plot images, such []WebPlotDigitilizer(https://apps.automeris.io/wpd/). Thanks to this, it is possible to identify the points of the profiles to be extracted. The process is simple, as described below:
 
 1. Load image and select 2D (X-Y) Plot.

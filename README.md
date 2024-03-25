@@ -6,7 +6,9 @@ The first step is to identify the data to be collected. In this case, Figure 9 o
 
 
 
-
+<p align="center" width="100%">
+    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/typical_profile.JPG" width="680" height="400">
+</p>
 
 <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/typical_profile.JPG" width="680" height="400">
 

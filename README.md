@@ -10,7 +10,7 @@ The first step is to identify the data to be collected. In this case, Figure 9 o
     <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/typical_profile.JPG" width="680" height="400">
 </p>
 
-<img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/typical_profile.JPG" width="680" height="400">
+
 
 
 The next step is to use computer vision software to help extract numerical data from the plot images, such []WebPlotDigitilizer(https://apps.automeris.io/wpd/). Thanks to this, it is possible to identify the points of the profiles to be extracted. The process is simple, as described below:
@@ -59,7 +59,10 @@ for i in range(0,72):
 
 Representing the winter variable (without interpolation) and the winter data interpolated at hourly intervals, the following results are obtained:
 
-<img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_comparison.jpg" width="680" height="400">
+
+<p align="center" width="100%">
+    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_comparison.jpg" width="680" height="400">
+</p>
 
 Thus, the data of the graph is now available for use. A further step is the disaggregation of this general profile into commercial and residential profiles.
 
@@ -70,7 +73,10 @@ In this section a disaggregation according to typical daily profiles is proposed
 
 
 
-<img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/typical_profile3.JPG" width="680" height="400">
+<p align="center" width="100%">
+    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/typical_profile3.JPG" width="680" height="400">
+</p>
+
 
 The winter, summer and transition profiles are normalised according to the highest consumption, which is winter. This results in a total annual consumption profile per unit, descomposed into the 72 hours of winter, summer and transition seasons.  This profile is multiplied by the residential and commercial load per unit from the CIGRE report, resulting in the evolution of load types for typical days of the seasons. 
 
@@ -102,8 +108,11 @@ for i in range(0,3):
 Once these profiles have been obtained, they can be scaled by a certain coefficient to improve the evolution as desired (due to the digitalisation process, some minor errors or deviations may have occurred). As an example, for the proposed case, the winter and summer profiles are slightly increased and the transition season is reduced in order to obtain, in general, evolutions as similar as possible to the article ["Modelling and Optimization in Microgrids"](https://www.mdpi.com/1996-1073/10/4/523). The results are as follows:
 
 
+<p align="center" width="100%">
+    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg" width="680" height="680">
+</p>
 
-<img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg" width="680" height="680">
+
 
 
 

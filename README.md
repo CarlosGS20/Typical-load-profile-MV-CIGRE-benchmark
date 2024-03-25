@@ -4,7 +4,7 @@ This document describes how to obtain the MV CIGRE network consumption data desc
 
 The first step is to identify the data to be collected. In this case, Figure 9 of the article ["Modelling and Optimization in Microgrids"](https://www.mdpi.com/1996-1073/10/4/523), published in Energies by Tobias Porsinger, Przemyslaw Janik, Zbigniew Leonowicz, and Radomir Gono.
 
-![Image|100](https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/typical_profile.JPG)
+
 
 
 
@@ -57,11 +57,9 @@ for i in range(0,72):
 
 Representing the winter variable (without interpolation) and the winter data interpolated at hourly intervals, the following results are obtained:
 
-![Image|1](https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_comparison.jpg)
-
 <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_comparison.jpg" width="680" height="400">
 
-Thus the data of the graph is now available for use. A further step is the disaggregation of this general profile into commercial and residential profiles.
+Thus, the data of the graph is now available for use. A further step is the disaggregation of this general profile into commercial and residential profiles.
 
 
 # Disaggregation of general profile into commercial and residential load type
@@ -69,6 +67,8 @@ Thus the data of the graph is now available for use. A further step is the disag
 In this section a disaggregation according to typical daily profiles is proposed, related to the example 24-hour profile shown in the data of Figure 6.4 in ![MV CIGRE report](https://www.e-cigre.org/publications/detail/575-benchmark-systems-for-network-integration-of-renewable-and-distributed-energy-resources.html). This proposed disaggregation aims to identify profiles by residential and commercial load per season, because are located on the network and are given in nominal power. This is essential in order to carry out simulations and studies with coherent profiles for different seasons.  The same process described above is used to obtain the data for the 24-hour evolution figure. 
 
 ![texto cualquiera por si no carga la imagen](https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/typical_profile3.JPG)
+
+<img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/typical_profile3.JPG" width="680" height="400">
 
 The winter, summer and transition profiles are normalised according to the highest consumption, which is winter. This results in a total annual consumption profile per unit, descomposed into the 72 hours of winter, summer and transition seasons.  This profile is multiplied by the residential and commercial load per unit from the CIGRE report, resulting in the evolution of load types for typical days of the seasons. 
 
@@ -100,6 +100,10 @@ for i in range(0,3):
 Once these profiles have been obtained, they can be scaled by a certain coefficient to improve the evolution as desired (due to the digitalisation process, some minor errors or deviations may have occurred). As an example, for the proposed case, the winter and summer profiles are slightly increased and the transition season is reduced in order to obtain, in general, evolutions as similar as possible to the article ["Modelling and Optimization in Microgrids"](https://www.mdpi.com/1996-1073/10/4/523). The results are as follows:
 
 ![texto cualquiera por si no carga la imagen](https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg)
+
+<img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg" width="680" height="400">
+
+
 
 Once this data is available in a numerical and fully accessible form, the total consumption at each node for each typical day can be calculated by multiplying by the nominal power of the loads of each type indicated in the CIGRE report. It is also possible to manipulate this data to perform various analyses, such as creating voltage problems at some nodes or current problems on the lines. 
 

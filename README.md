@@ -52,7 +52,7 @@ for i in range(0,72):
 
 Representing the winter variable (without interpolation) and the winter data interpolated at hourly intervals, the following results are obtained:
 
-![Image|50](https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_comparison.jpg)
+![Image|1](https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_comparison.jpg)
 
 
 

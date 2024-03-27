@@ -105,7 +105,7 @@ for i in range(0,3):
         Inter_comercial[i*24+j] = datainter[i*24+j,1]/max(datawinter[:,1])*Porce_P_hour[1,j]      
 ```
 
-Once these profiles have been obtained, they can be scaled by a certain coefficient to improve the evolution as desired (due to the digitalisation process, some minor errors or deviations may have occurred). As an example, for the proposed case, the winter and summer profiles are slightly increased and the transition season is reduced in order to obtain, in general, evolutions as similar as possible to the article ["Modelling and Optimization in Microgrids"](https://www.mdpi.com/1996-1073/10/4/523). The results are as follows:
+Once these profiles have been obtained, they can be scaled by a certain coefficient to improve the evolution as desired (due to the digitalisation process, some minor errors or deviations may have occurred). with this, the consumption profiles are more similar to the article ["Modelling and Optimization in Microgrids"](https://www.mdpi.com/1996-1073/10/4/523). The results are as follows:
 
 
 <p align="center" width="100%">

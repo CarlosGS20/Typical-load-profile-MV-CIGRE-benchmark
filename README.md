@@ -1,9 +1,8 @@
 # Typical load profile MV CIGRE benchmark
 
-This document describes how to obtain the MV CIGRE network consumption data described in an article for use in power system research studies. The motivation for this repository is to describe a clear method for obtaining data to replicate articles or methods in a transparent way when data is difficult to find in database form. The procedure described is also applicable to other work where data is required and displayed on graphs. 
+This document describes how to obtain the MV CIGRE network consumption data described in [1] for use in power system research studies. The purpose of this repository is to provide guidance on collecting data in order to replicate results of different methodologies in a transparent way, when data is difficult to find in database form. This procedure can be applied to other tasks that involve the presentation of data on graphs. 
 
 The first step is to identify the data to be collected. In this case, Figure 9 of the article ["Modelling and Optimization in Microgrids"](https://www.mdpi.com/1996-1073/10/4/523), published in Energies by Tobias Porsinger, Przemyslaw Janik, Zbigniew Leonowicz, and Radomir Gono.
-
 
 
 <p align="center" width="100%">
@@ -11,9 +10,7 @@ The first step is to identify the data to be collected. In this case, Figure 9 o
 </p>
 
 
-
-
-The next step is to use computer vision software to help extract numerical data from the plot images, such []WebPlotDigitilizer(https://apps.automeris.io/wpd/). Thanks to this, it is possible to identify the points of the profiles to be extracted. The process is simple, as described below:
+The next step is to use computer vision software to help extract numerical data from the plot images, such [WebPlotDigitilizer](https://apps.automeris.io/wpd/). Thanks to this, it is possible to identify the points of the profiles to be extracted. The process is simple, as described below:
 
 1. Load image and select 2D (X-Y) Plot.
 2. Select the X-values and Y-values. In this case, Y-values are 0 and 40 MW. If the hourly sample is considered, being three consecutive days, X-value are 0 and 72 hours.
@@ -112,9 +109,6 @@ Once these profiles have been obtained, they can be scaled by a certain coeffici
     <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg" width="680" height="680">
 </p>
 
-
-
-
-
 Once this data is available in a numerical and fully accessible form, the total consumption at each node for each typical day can be calculated by multiplying by the nominal power of the loads of each type indicated in the CIGRE report. It is also possible to manipulate this data to perform various analyses, such as creating voltage problems at some nodes or current problems on the lines. 
 
+[1] CIGRE Task Force C6.04: Benchmark Systems for Network Integration of Renewable and Distributed Energy Resources, May 2013. ISBN: 978-285-873-270-8.

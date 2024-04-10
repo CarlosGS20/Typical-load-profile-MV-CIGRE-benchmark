@@ -7,3 +7,7 @@ This directory contains:
 - Network parameters.
 
 The test network used is shown in the figure below, with a modification for simplicity in the modeling: the substations are replaced by two branches, 0-1 and 0-12, whose parameters are defined in the network data. 
+
+<p align="center" width="100%">
+    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg" width="400" height="400">
+</p>

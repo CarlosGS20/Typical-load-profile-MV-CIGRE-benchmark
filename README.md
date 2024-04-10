@@ -14,8 +14,5 @@ These residential and commercial consumption profiles, as well as the total cons
 
 These repository contains:
 
-- [CIGRE MV network (European Configuration)](https://www.e-cigre.org/publications/detail/575-benchmark-systems-for-network-integration-of-renewable-and-distributed-energy-resources.html): This case is based on winter consumption profiles. It consists of 5 days formed by the sequence of two weekdays, Saturday, Sunday and another weekday.
+- [5-days test cases](https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/tree/main/5-days%20test%20case): This case is based on winter consumption profiles. It consists of 5 days formed by the sequence of two weekdays, Saturday, Sunday and another weekday.
 
-Once this data is available in a numerical and fully accessible form, the total consumption at each node for each typical day can be calculated by multiplying by the nominal power of the loads of each type indicated in the CIGRE report. It is also possible to manipulate this data to perform various analyses, such as creating voltage problems at some nodes or current problems on the lines. 
-
-[1] CIGRE Task Force C6.04: Benchmark Systems for Network Integration of Renewable and Distributed Energy Resources, May 2013. ISBN: 978-285-873-270-8.

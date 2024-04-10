@@ -11,6 +11,13 @@ These residential and commercial consumption profiles, as well as the total cons
     <figcaption>This is my caption text.</figcaption>
 </p>
 
+<figure>
+  <img
+  src="https://developer.mozilla.org/static/img/favicon144.png"
+  alt="The beautiful MDN logo.">
+  <figcaption>MDN Logo</figcaption>
+</figure>
+
 
 Once this data is available in a numerical and fully accessible form, the total consumption at each node for each typical day can be calculated by multiplying by the nominal power of the loads of each type indicated in the CIGRE report. It is also possible to manipulate this data to perform various analyses, such as creating voltage problems at some nodes or current problems on the lines. 
 

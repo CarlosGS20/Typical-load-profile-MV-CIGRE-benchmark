@@ -1,5 +1,13 @@
 # Typical load profile MV CIGRE benchmark
 
+This repository contains consumption and generation profiles test cases for the [CIGRE MV network (European Configuration)](https://www.e-cigre.org/publications/detail/575-benchmark-systems-for-network-integration-of-renewable-and-distributed-energy-resources.html). This network has residential and commercial loads at the nodes, whose unit profiles (for a given time period) are scaled by the rated power indicated in the report.
+
+
+
+
+
+This repository contains distribution feeder models for the GridAPPS-D project and other use cases in these formats:
+
 This document describes how to obtain the MV CIGRE network consumption data described in [1] for use in power system research studies. The purpose of this repository is to provide guidance on collecting data in order to replicate results of different methodologies in a transparent way, when data is difficult to find in database form. This procedure can be applied to other tasks that involve the presentation of data on graphs. 
 
 The first step is to identify the data to be collected. In this case, Figure 9 of the article ["Modelling and Optimization in Microgrids"](https://www.mdpi.com/1996-1073/10/4/523), published in Energies by Tobias Porsinger, Przemyslaw Janik, Zbigniew Leonowicz, and Radomir Gono.

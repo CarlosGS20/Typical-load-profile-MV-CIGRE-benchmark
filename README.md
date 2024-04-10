@@ -4,13 +4,16 @@ This repository contains consumption and generation profiles test cases for the 
 
 These residential and commercial consumption profiles, as well as the total consumption per node, are based on the per-season profiles described in the article ["Modelling and Optimization in Microgrids"](https://www.mdpi.com/1996-1073/10/4/523), published in Energies by Tobias Porsinger, Przemyslaw Janik, Zbigniew Leonowicz, and Radomir Gono. It shows profiles for weekdays, Saturday and Sunday for winter, summer and transition seasons.
 
-
 <figure>
+  <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg" width="400" height="400">
+  <figcaption>An elephant at sunset</figcaption>
+</figure>
+
 <p align="center" width="100%">
     <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg" width="400" height="400">
-    <figcaption>This is my caption text.</figcaption>
+
 </p>
-<figure>
+
 
 
 

@@ -1,11 +1,7 @@
 # Prueba
 
 
-<figure class="image">
-  <img src="{{ include.url }}" alt="{{ include.description }}">
-  <figcaption>{{ include.description }}</figcaption>
-</figure>
 
-And then display the image from your markdown with:
-
-{% include image.html url="/images/my-cat.jpg" description="My cat, Robert Downey Jr." %}
+<p align="center" width="100%">
+    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg" width="400" height="400">
+</p>

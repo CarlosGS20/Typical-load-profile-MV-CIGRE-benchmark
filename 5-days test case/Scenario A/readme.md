@@ -7,12 +7,103 @@
     <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg" width="400" height="400">
 </p>
 <p align="center" width="100%">
-    Sample text with center alignment
+    Fig. 1  Consupmtion profile at node 1. 
 </p>
 
-<p style="text-align: center;">Sample text with center alignment</p>
+<p align="center" width="100%">
+    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg" width="400" height="400">
+</p>
+<p align="center" width="100%">
+    Fig. 2  Consupmtion profile at node 3. 
+</p>
 
-<figure align="center" class="image-caption">
-    <img src="/yourpage/mymage.jpg" alt="My Image Alt Text" title="My Image Caption" class="caption" />
-    <figcaption>My Image Caption</figcaption>
-</figure>
+<p align="center" width="100%">
+    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg" width="400" height="400">
+</p>
+<p align="center" width="100%">
+    Fig. 3  Consupmtion profile at node 4. 
+</p>
+
+<p align="center" width="100%">
+    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg" width="400" height="400">
+</p>
+<p align="center" width="100%">
+    Fig. 4  Consupmtion profile at node 5. 
+</p>
+
+<p align="center" width="100%">
+    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg" width="400" height="400">
+</p>
+<p align="center" width="100%">
+    Fig. 5  Consupmtion profile at node 6. 
+</p>
+
+<p align="center" width="100%">
+    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg" width="400" height="400">
+</p>
+<p align="center" width="100%">
+    Fig. 6  Consupmtion profile at node 7. 
+</p>
+
+
+<p align="center" width="100%">
+    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg" width="400" height="400">
+</p>
+<p align="center" width="100%">
+    Fig. 7  Consupmtion profile at node 8. 
+</p>
+
+
+<p align="center" width="100%">
+    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg" width="400" height="400">
+</p>
+<p align="center" width="100%">
+    Fig. 8  Consupmtion profile at node 9. 
+</p>
+
+
+<p align="center" width="100%">
+    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg" width="400" height="400">
+</p>
+<p align="center" width="100%">
+    Fig. 9  Consupmtion profile at node 10. 
+</p>
+
+
+<p align="center" width="100%">
+    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg" width="400" height="400">
+</p>
+<p align="center" width="100%">
+    Fig. 10  Consupmtion profile at node 11. 
+</p>
+
+
+<p align="center" width="100%">
+    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg" width="400" height="400">
+</p>
+<p align="center" width="100%">
+    Fig. 11  Consupmtion profile at node 12. 
+</p>
+
+
+<p align="center" width="100%">
+    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg" width="400" height="400">
+</p>
+<p align="center" width="100%">
+    Fig. 12  Consupmtion profile at node 13. 
+</p>
+
+
+<p align="center" width="100%">
+    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg" width="400" height="400">
+</p>
+<p align="center" width="100%">
+    Fig. 13  Consupmtion profile at node 14. 
+</p>
+
+
+
+
+
+
+

@@ -1,7 +1,8 @@
 
 # Scenario description
 
-In this scenario, the aim is to analyse occasional problems lasting a maximum of two hours.
+
+The purpose of this scenario is to analyse occasional problems lasting a maximum of two hours. With this load scenario, overloads occur on the branches 0-1 and 0-12, in addition to voltage problems at nodes located further away from the root. 
 
 # Consumption profiles
 

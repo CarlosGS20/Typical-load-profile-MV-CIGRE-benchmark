@@ -4,7 +4,7 @@
 
 
 <p align="center" width="100%">
-    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/5-days%20test%20case/Scenario%20A/Figure_profiles/Node_1.jpg" width="400" height="400">
+    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/5-days%20test%20case/Scenario%20A/Figure_profiles/Node_1.jpg" width="400" height="200">
 </p>
 <p align="center" width="100%">
     Fig. 1  Consupmtion profile at node 1. 

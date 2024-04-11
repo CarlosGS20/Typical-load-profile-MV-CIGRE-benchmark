@@ -1,7 +1,7 @@
 
 # Scenario description
 
-
+The purpose of this scenario is to analyse the problem of congestion over a long period of time (9 hours). With this load scenario, overloads occur on the branches 0-1 and 0-12, in addition to voltage problems at nodes located further away from the root.
 
 # Consumption profiles
 

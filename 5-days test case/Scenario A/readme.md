@@ -1,7 +1,7 @@
 # Prueba
 
-<figure>
-    <img src="/assets/images/albuquerque.jpg"
-         alt="Albuquerque, New Mexico">
-    <figcaption>A single track trail outside of Albuquerque, New Mexico.</figcaption>
-</figure>
+<div id="container">
+<p align="center" width="100%">
+    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/Profiles_consumption_disaggregation.jpg" width="400" height="400">
+</p>
+</div>

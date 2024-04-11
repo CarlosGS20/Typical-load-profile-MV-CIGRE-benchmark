@@ -14,3 +14,11 @@
   This is an image
 
 </p>
+
+
+<img style="display: block; margin: auto;"
+src="https://stackoverflow.design/assets/img/logos/so/logo-print.svg">
+
+<p style="text-align: center;">
+This is an image
+</p>

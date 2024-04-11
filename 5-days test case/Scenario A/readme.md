@@ -23,3 +23,6 @@ src="https://stackoverflow.design/assets/img/logos/so/logo-print.svg">
 <p style="text-align: center;">
 This is an image
 </p>
+
+
+<p style="text-align: center;">Centered text</p>

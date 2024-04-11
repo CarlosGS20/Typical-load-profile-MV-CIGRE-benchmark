@@ -1,7 +1,7 @@
 
 # Scenario description
 
-
+In this scenario, the aim is to analyse occasional problems lasting a maximum of two hours.
 
 # Consumption profiles
 

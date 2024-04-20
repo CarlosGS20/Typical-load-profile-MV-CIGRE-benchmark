@@ -109,6 +109,13 @@ The purpose of this scenario is to analyse occasional problems lasting a maximum
 
 # Generation profiles
 
+<p align="center" width="100%">
+    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/5-days%20test%20case/Scenario%20A/Figure_profiles/generation.jpg" width="400" height="200">
+</p>
+<p align="center" width="100%">
+    Fig. 14  Generation profile.
+</p>
+
 
 
 

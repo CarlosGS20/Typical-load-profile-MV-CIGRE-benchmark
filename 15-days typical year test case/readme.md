@@ -13,22 +13,5 @@ The test network used is shown in the figure below, with a modification for simp
 </p>
 
 
-\begin{table}[htb]
-\caption{Value of currents (A) above the limit for each hour in overloaded lines.}
-\label{Table:overload_violation}
-\centering
-%\scriptsize
-\begin{tabular}{c c c c c c c}
-\hline
-Branch & t43  & t44 & t91  & t108 & t161 & t162 \\ \hline
-0-1  & 29.20 & 5.71 & 52.35 & 55.55 & 60.21 & 46.63\\
-3-4 & 13.97 & 11.27 & -- & -- & -- & --\\ 
-3-8 & 23.30 & 23.60 & -- & -- & 14.19 & 13.60 \\ \hline
-Branch & t163  & t164 & t211  & t212 & t228 & t229 \\ \hline
-0-1  & 4.52  & 95.62 & 96.97 & 87.53 & 46.92 & 29.49\\
-3-4 & -- & -- & 20.09 & 13.17 & -- & -- \\ 
-3-8 & 11.32 & 18.12 & -- & -- & -- & --\\ \hline
-\end{tabular}
-\end{table}
 
 

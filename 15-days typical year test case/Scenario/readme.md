@@ -60,7 +60,7 @@ The purpose of this scenario is to analyse occasional problems (lasting one or t
 
 
 <p align="center" width="100%">
-    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/5-days%20test%20case/Scenario%20A/Figure_profiles/Node_9.jpg" width="400" height="200">
+    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/15-days%20typical%20year%20test%20case/Figure_profiles/Node_9.jpg" width="400" height="200">
 </p>
 <p align="center" width="100%">
     Fig. 8  Consumption profile at node 9. 
@@ -68,7 +68,7 @@ The purpose of this scenario is to analyse occasional problems (lasting one or t
 
 
 <p align="center" width="100%">
-    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/5-days%20test%20case/Scenario%20A/Figure_profiles/Node_10.jpg" width="400" height="200">
+    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/15-days%20typical%20year%20test%20case/Figure_profiles/Node_10.jpg" width="400" height="200">
 </p>
 <p align="center" width="100%">
     Fig. 9  Consumption profile at node 10. 
@@ -76,7 +76,7 @@ The purpose of this scenario is to analyse occasional problems (lasting one or t
 
 
 <p align="center" width="100%">
-    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/5-days%20test%20case/Scenario%20A/Figure_profiles/Node_11.jpg" width="400" height="200">
+    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/15-days%20typical%20year%20test%20case/Figure_profiles/Node_11.jpg" width="400" height="200">
 </p>
 <p align="center" width="100%">
     Fig. 10  Consumption profile at node 11. 
@@ -84,7 +84,7 @@ The purpose of this scenario is to analyse occasional problems (lasting one or t
 
 
 <p align="center" width="100%">
-    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/5-days%20test%20case/Scenario%20A/Figure_profiles/Node_12.jpg" width="400" height="200">
+    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/15-days%20typical%20year%20test%20case/Figure_profiles/Node_12.jpg" width="400" height="200">
 </p>
 <p align="center" width="100%">
     Fig. 11  Consumption profile at node 12. 
@@ -92,7 +92,7 @@ The purpose of this scenario is to analyse occasional problems (lasting one or t
 
 
 <p align="center" width="100%">
-    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/5-days%20test%20case/Scenario%20A/Figure_profiles/Node_13.jpg" width="400" height="200">
+    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/15-days%20typical%20year%20test%20case/Figure_profiles/Node_13.jpg" width="400" height="200">
 </p>
 <p align="center" width="100%">
     Fig. 12  Consumption profile at node 13. 
@@ -100,7 +100,7 @@ The purpose of this scenario is to analyse occasional problems (lasting one or t
 
 
 <p align="center" width="100%">
-    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/5-days%20test%20case/Scenario%20A/Figure_profiles/Node_14.jpg" width="400" height="200">
+    <img src="https://github.com/CarlosGS20/Typical-load-profile-MV-CIGRE-benchmark/blob/main/15-days%20typical%20year%20test%20case/Figure_profiles/Node_14.jpg" width="400" height="200">
 </p>
 <p align="center" width="100%">
     Fig. 13  Consumption profile at node 14. 
